@@ -1,6 +1,7 @@
 body {
   background-image: url('bg.png');
   background-size: cover;
+  background-color: #2A5946;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -29,7 +30,7 @@ body {
   right: 0;
   color: white;
   border: 3px solid rgb(255, 255, 255);
-  background-color: #ce9a3a;
+  background-color: #29443a;
 }
 
 .unveilAllLettersButton {
@@ -44,7 +45,7 @@ body {
   border-radius: 15px;
   color: white;
   border: 3px solid rgb(255, 255, 255);
-  background-color: #ce9a3a;
+  background-color: #29443a;
 }
 
 .App-logo {

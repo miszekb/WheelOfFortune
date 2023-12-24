@@ -1,6 +1,6 @@
 .categoryContainer {
     margin: auto;
-    margin-top: 400px;
+    margin-top: 650px;
     transition: 1s;
 }
 
@@ -14,12 +14,12 @@
 .categoryBar {
     width: 450px;
     padding: 20px;
-    border-radius: 16px;
+    border-radius: 24px;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
-    border: 3px solid #4AA8FF;
-    box-shadow: 0px 4px 17px rgba(74, 168, 255, 0.46), inset 0px 0px 18px #4AA8FF;
+    background-color: #FFF2E9;
+    border: 3px solid #2A5946;
+    box-shadow: 0px 4px 17px rgba(74, 255, 216, 0.46), inset 0px 0px 18px #2FA690;
 }
