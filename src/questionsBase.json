@@ -1,30 +1,30 @@
 [
     {
-        "word": "Hasło Masło",
+        "word": "Hasło Masło Hasło Masło",
         "category": "TEST"
     },
     {
-        "word": "Pieczenie piernikowych ludzików",
-        "category": "Czynność"
+        "word": "Opowieść wigilijna",
+        "category": "Literatura"
     },
     {
-        "word": "Drożdżowe ciasto cynamonowe",
+        "word": "Kompot z suszonych owoców",
         "category": "Kuchnia"
     },
     {
-        "word": "Wróżenie że źdźbła siana",
-        "category": "Przesądy"
+        "word": "Trzej Mędrcy",
+        "category": "Postać"
     },
     {
-        "word": "pakowanie prezentów",
+        "word": "lepienie bałwana",
         "category": "Czynność"
     },
     {
-        "word": "Jaka Wigilia taki cały rok",
-        "category": "Powiedzenia"
+        "word": "Szopka bożonarodzeniowa",
+        "category": "Przedmiot"
     },
     {
-        "word": "Jest taki dzień",
-        "category": "Piosenka"
+        "word": "O gwiazdo Betlejemska",
+        "category": "Kolęda"
     }
 ]

@@ -11,13 +11,14 @@
 }
 
 .teamName {
-    background-color: rgb(245, 159, 47);
+    background-color:#2A5946;
     font-weight: bold;
     padding-bottom: 0px;
     height: 50px;
     margin-top: -50px;
     font-size: 45px;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    visibility: hidden;
 }
 
 .teamAvatar {
@@ -29,9 +30,8 @@
 
 .teamAvatar img {
     display: block;
-    width: 210px;
-    height: 180px;
-    border-radius: 50%;
+    width: auto;
+    height: 350px;
 
 }
 
@@ -40,23 +40,28 @@
     border-radius: 20px;
     
     font-weight: bold;
-    padding: 20px;
+    padding: 8px;
     -webkit-box-shadow: 0px 0px 24px -7px rgba(255, 255, 255, 1);
     -moz-box-shadow: 0px 0px 24px -7px rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 24px -7px rgba(255, 255, 255, 1);
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 2px #EE8202; /* width and color */
+    -webkit-text-stroke: 2px #67A28A; /* width and color */
+    margin-top: 156px;
 }
 
 input {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
     width: 100%;
     color: white;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 3px #EE8202; /* width and color */
+    -webkit-text-stroke: 3px #67A28A; /* width and color */
     background-color: transparent;
 
     border: none;
+}
+
+input:focus-visible {
+    outline: none;
 }
