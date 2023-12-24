@@ -13,7 +13,6 @@ const Letters = props => {
 
     return <div className={styles.lettersContainer}>
             {currentWordLetters.map(word => {
-                console.log('WORD: ', word);
                 return <>
                     <div className={styles.lettersRow}>
                     {word.split('').map((letter, index) => <Letter

@@ -45,12 +45,11 @@ function App() {
   }
 
   useEffect(() => {
-    window.addEventListener("keydown", event => {
+    const playSoundCallback = event => {
       const clickedCharacter = String.fromCharCode(event.keyCode)
       const character = checkIfPolish(clickedCharacter, event.shiftKey);
 
       if ((/[a-zA-Z]/).test(character) || Object.values(lettersMapping).includes(character)) {
-        console.log('OUPS, ', word.toUpperCase(), character);
         if (!word.toUpperCase().includes(character)) {
           const audio = new Audio('wrong_answer.mp3');
           audio.play();
@@ -58,7 +57,11 @@ function App() {
   
         unveilLetters([character]);
       }
-    });
+    };
+
+    window.addEventListener("keydown", playSoundCallback);
+
+    return () => window.removeEventListener("keydown", playSoundCallback)    ;
   }, [word]);
 
   return (
