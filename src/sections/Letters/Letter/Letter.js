@@ -22,9 +22,9 @@ const Letter = props => {
     }, [props.unveiledLetters, isLetterVisible]);
 
     return <ReactCardFlip isFlipped={isLetterVisible} flipDirection="horizontal">
-        <div style={isLetterHighlighted ? { backgroundColor: 'rgb(21, 230, 21)', transition: 0.7 } : { backgroundColor: '#FFF2E9'}} className={`${styles.unveiled} ${styles.letterCard}`} />
+        <div style={isLetterHighlighted ? { backgroundColor: 'rgb(21, 230, 21)', transition: 0.7 } : { backgroundColor: 'white'}} className={`${styles.unveiled} ${styles.letterCard}`} />
         <div className={`${styles.unveiled} ${styles.letterCard}`}>{props.letter}</div>
     </ReactCardFlip>
 }
 
-export default Letter;https://github.com/00levandi
+export default Letter;
